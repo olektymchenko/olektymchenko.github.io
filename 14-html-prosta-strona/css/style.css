@@ -1,14 +1,18 @@
-#about-us a {
+.about-us a {
     color: blue;
 }
-#skills a{
+.skills a{
     color: red;
 }
-#portfolio a
+.portfolio a
 {
     color: green;
 }
-#contact a
+.contact a
 {
     color: black;
+}
+#about-us
+{
+    background-color: sandybrown;
 }
