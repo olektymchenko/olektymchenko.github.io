@@ -1,0 +1,73 @@
+#kafelki
+{
+    width: 500px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+}
+#gorny{
+    background-color: #edcf96;
+    height: 90px;
+}
+
+#pierwszy{
+    position: absolute;
+    margin-top: 10px;
+    width: 270px;
+    height: 250px;
+    background-color: #2a6fc2;
+}
+#drugi
+{
+    position: absolute;
+    margin-top: 10px;
+    width: 220px;
+    height: 150px;
+    background-color: #2a6fc2;
+    left: 280px;
+}
+#trzeci
+{
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    background-color: #b18eec;
+    top:355px;
+}
+#czwarty
+{
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    background-color: #b18eec;
+    left: 280px;
+    top:255px;
+}
+#piaty{
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    background-color: #2a6fc2;
+    top:460px;
+}
+#szosty{
+    position: absolute;
+    width: 270px;
+    height: 130px;
+    background-color: #2a6fc2;
+    top:460px;
+    left:230px;
+}
+#dolny
+{
+    background-color: #edcf96;
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    top:595px;
+}
