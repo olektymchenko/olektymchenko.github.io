@@ -1,0 +1,65 @@
+h1{
+    color:rgb(19, 19, 121)
+}
+h3{
+    color:rgb(108, 84, 131);
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+#form1{
+    border: 1px solid black;
+    padding-left: 50px;
+    width: 70%;
+}
+#form2{
+    border: 1px solid black;
+    padding: 25px;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+#forma-name,
+#forma-phone,
+#forma-email
+{
+    padding-top: 15px;
+}
+#forma-email
+{
+    padding-bottom: 25px;
+}
+#pierwszy
+{
+    position: relative;
+    left: 18px;
+    bottom: 10px;
+    display: block;
+    background-color: white;
+    width: 100px;
+    padding-left: 5px;
+    margin-bottom: -20px;
+
+}
+#drugi
+{
+    position: relative;
+    left: 18px;
+    bottom: -25px;
+    display: block;
+    background-color: white;
+    width: 47px;
+    padding-left: 5px;
+    margin-top: -20px;
+}
+#books{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+#last{
+    display: block;
+    position: relative;
+    top: -21px;
+    left: 210px;
+}

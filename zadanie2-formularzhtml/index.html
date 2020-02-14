@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>A Simple Form</h1>
+    <h3>Form Fundamentals</h3>
+    <p id="pierwszy">Customer Info</p>
+    <section id="form1">
+        <form action="#" method="post">
+        <div id="forma-name">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required>
+        </div>
+        <div id="forma-phone"></div>
+        <label for="phone">Telephone: </label>
+        <input type="tel" name="phone" id="phone" placeholder="Pattern: 1-234-567-8910" required pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <div id="forma-email">
+            <label for="email">Email address: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple>
+        </div>
+    </section>
+    <p id="drugi">Books</p>
+    <section id="form2">
+        <select name="books" id="books">
+            <option value="empty" disabled selected></option>
+            <option value="Books1">Books 1</option>
+            <option value="Books2">Books 2</option>
+            <option value="Books3">Books 3</option>
+            <option value="Books4">Books 4</option>
+            <option value="Books5">Books 5</option>
+        </select>
+        <div id="last">
+        <label for="quantity">Quantity (Maximum 5): </label>
+        <input type="number" name="quantity" id="quantity" min="1" max="5">
+        </div>
+    </section>
+    <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
