@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerPhoto
+{
+    background-image: url(../obrazy/man-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headerIntro
+{
+    padding-left: 50px;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: flex-start;
+   color:white;
+}
+.outro
+{
+    display: none;
+}
