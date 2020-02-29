@@ -43,9 +43,8 @@
     {
         background-image: url(../obrazy/man-1.jpg);
         height: 50vh;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
     }
     .headerIntro
     {
