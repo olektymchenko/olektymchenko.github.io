@@ -1,0 +1,183 @@
+#calculator-body
+{
+    background-color: green;
+    width: 250px;
+    height: 350px;
+    position: relative;
+}
+.button button
+{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 4px solid grey;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#button0
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#button0 button
+{
+    width: 94px;
+}
+
+#buttonDot{
+    position: absolute;
+    bottom: 20px;
+    left: 130px;
+}
+#equal
+{
+    position: absolute;
+    bottom: 20px;
+    left: 186px;
+}
+#equal button{
+    background-color: yellowgreen;
+}
+
+#button1
+{
+    position: absolute;
+    bottom: 70px;
+    left:20px;
+}
+
+#button2
+{
+    position: absolute;
+    bottom: 70px;
+    left: 74px;
+}
+
+#button3
+{
+    position: absolute;
+    bottom: 70px;
+    left : 130px ;
+}
+
+#divide {
+    position: absolute;
+    bottom: 70px;
+    left: 186px;
+}
+
+#divide button{
+    background-color: rgb(136, 69, 69);
+}
+
+#button4
+{
+    position: absolute;
+    bottom: 120px;
+    left:20px;
+}
+#button5
+{
+    position: absolute;
+    bottom: 120px;
+    left: 74px;
+}
+
+#button6
+{
+    position: absolute;
+    bottom: 120px;
+    left : 130px; 
+}
+
+#multiply
+{
+    position: absolute;
+    bottom: 120px;
+    left: 186px;
+}
+#multiply button{
+    background-color: rgb(136, 69, 69);
+}
+
+#button7
+{
+    position: absolute;
+    bottom: 170px;
+    left: 20px;
+}
+#button8
+{
+    position: absolute;
+    bottom: 170px;
+    left: 74px;
+}
+
+#button9
+{
+    position: absolute;
+    bottom: 170px;
+    left: 130px;
+}
+
+#minus
+{
+    position: absolute;
+    bottom: 170px;
+    left: 186px;
+}
+#minus button{
+    background-color: rgb(136, 69, 69);
+}
+
+#del {
+    position: absolute;
+    bottom: 220px;
+    left: 20px;
+}
+#del button{
+    width: 94px;
+    background-color: violet;
+}
+#procent
+{
+    position: absolute;
+    bottom: 220px;
+    left: 130px;
+}
+#procent button{
+    background-color: rgb(136, 69, 69);
+}
+#plus
+{
+    position: absolute;
+    bottom: 220px;
+    left:186px;
+}
+#plus button{
+    background-color: rgb(136, 69, 69);
+}
+#input
+{
+    position: absolute;
+    left: 20px;
+    bottom: 270px;
+}
+#input input{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(136, 69, 69);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h3{
+    display:block;
+    position: absolute;
+    top:-10px;
+    left:50px
+}
