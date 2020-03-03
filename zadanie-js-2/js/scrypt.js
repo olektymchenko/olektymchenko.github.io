@@ -77,7 +77,38 @@ let btn = document.getElementById("oblicz").addEventListener("click",function(){
             let color = document.getElementsByClassName("uczen")[i-2];
             color.style.backgroundColor = "green";
         }
-        if((math||polish||biology||geography||physic||chemistry||comptScienice) <= 1)
+
+        if(math<= 1)
+        {
+            let color = document.getElementsByClassName("uczen")[i-2];
+            color.style.backgroundColor = "red";
+        }
+        if(polish <= 1)
+        {
+            let color = document.getElementsByClassName("uczen")[i-2];
+            color.style.backgroundColor = "red";
+        }
+        if(biology <= 1)
+        {
+            let color = document.getElementsByClassName("uczen")[i-2];
+            color.style.backgroundColor = "red";
+        }
+        if(geography <= 1)
+        {
+            let color = document.getElementsByClassName("uczen")[i-2];
+            color.style.backgroundColor = "red";
+        }
+        if(physic <= 1)
+        {
+            let color = document.getElementsByClassName("uczen")[i-2];
+            color.style.backgroundColor = "red";
+        }
+        if(chemistry <= 1)
+        {
+            let color = document.getElementsByClassName("uczen")[i-2];
+            color.style.backgroundColor = "red";
+        }
+        if( comptScienice <= 1)
         {
             let color = document.getElementsByClassName("uczen")[i-2];
             color.style.backgroundColor = "red";
