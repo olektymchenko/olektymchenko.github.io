@@ -1,0 +1,29 @@
+button{
+    background-color: goldenrod;
+    color:white;
+    margin: 1px solid grey;
+    padding:5px;
+}
+p{
+    display: inline-block;
+}
+#upBuy,
+#upSell{
+    color: green;
+    display: none;
+}
+#downBuy,
+#downSell
+{
+    color:red;
+    display: none;
+}
+#minusBuy,
+#minusSell
+{
+    color:blue;
+    display: none;
+}
+h3{
+    margin:0;
+}
