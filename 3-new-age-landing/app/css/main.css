@@ -19,6 +19,14 @@ header .container .row .header-nav #company_name h4 {
     color: #fbad49;
 }
 
+@media all and (max-width: 576px) {
+    header .container .row .header-nav #company_name {
+        position: relative;
+        left: 0;
+        top: -5px;
+    }
+}
+
 header .container .row .header-nav #nav-bar nav ul {
     list-style-type: none;
 }
@@ -111,7 +119,19 @@ header .container .row .header-image img {
 
 @media all and (max-width: 576px) {
     header .container .row .header-image img {
-        margin-right: 100px;
+        margin-right: 85px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    header .container .row .header-image img {
+        margin-right: 60px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    header .container .row .header-image img {
+        margin-right: 30px;
     }
 }
 
@@ -226,7 +246,7 @@ header .container .row .header-image #screen {
 
 @media all and (max-width: 576px) {
     .third-section .container .row .third-one #third-screen {
-        right: 67px;
+        right: 126px;
     }
 }
 
