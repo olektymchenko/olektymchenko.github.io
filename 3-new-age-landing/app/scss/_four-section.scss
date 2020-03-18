@@ -1,0 +1,83 @@
+.four-section{
+    .container-fluid{
+        .row{
+            position: relative;
+            .four-backgound{
+                background-image: url("../img/bg-cta.jpg");
+                height: 765px;
+                background-position: center;
+                background-size: cover;
+                #h1First{
+                    color:white;
+                    font-size: 70px;
+                    position: absolute;
+                    top:240px;
+                    left: 140px;
+                    @media all and (max-width: 1200px)
+                    {
+                       
+                        left:60px
+                    }
+                    @media all and (max-width: 992px)
+                    {
+                        font-size: 55px;
+                        left:17px
+                    }
+                    @media all and (max-width: 768px)
+                    {
+                        font-size: 50px;
+                        left:17px
+                    }
+                }
+                #h1Second{
+                    color:white;
+                    font-size: 70px;
+                    position: absolute;
+                    top:330px;
+                    left: 140px;
+                    @media all and (max-width: 1200px)
+                    {
+                       
+                        left:60px
+                    }
+                    @media all and (max-width: 992px)
+                    {
+                        font-size: 55px;
+                        left:17px
+                    }
+                    @media all and (max-width: 768px)
+                    {
+                        font-size: 50px;
+                        left:17px
+                    }
+                }
+                button{
+                    width: 250px;
+                    height: 50px;
+                    background: transparent;
+                    border: 1px solid white;
+                    border-radius: 30px;
+                    color:white;
+                    margin-top: 62px;
+                    font-size: 13px;
+                    position: absolute;
+                    top:380px;
+                    left:140px;
+                    @media all and (max-width: 1200px)
+                    {
+                       
+                        left:60px
+                    }
+                    @media all and (max-width: 992px)
+                    {
+                        left:17px
+                    }
+                    @media all and (max-width: 768px)
+                    {
+                        left:17px
+                    }
+                }
+            }
+        }
+    }
+}

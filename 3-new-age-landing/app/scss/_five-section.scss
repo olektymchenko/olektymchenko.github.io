@@ -1,0 +1,40 @@
+.five-section{
+    .container-fluid{
+        height: 365px;
+        background-color: rgb(253, 199, 66);
+        .row{
+            .five-column{
+                h2{
+                    margin-top: 100px;
+                }
+                span{
+                    color:red;
+                    font-size: 1.5em;
+                }
+                #icons{
+                    margin-top: 40px;
+                    font-size: 3em;
+                    color:white;
+                    i{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    padding-top: 5px;
+                        &:first-of-type{
+                            background-color: rgb(29, 161, 242);
+                        }
+                        &:nth-of-type(2){
+                            background-color: rgb(59, 89, 152);
+                            margin-left: 15px;
+                            margin-right: 15px;
+                        }
+                        &:nth-of-type(3){
+                            background-color: rgb(221, 75, 57);
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
