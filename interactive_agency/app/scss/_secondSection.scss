@@ -1,0 +1,37 @@
+.secondSection{
+    .container{
+        margin-top: 100px;
+        h1{
+            font-weight: bold;
+        }
+        p{
+            font-style: italic;
+            margin-bottom: 80px;
+            color:rgb(108, 117, 125)
+        }
+        .row{
+                p{
+                    font-style: normal;
+                  
+                }
+                .lastIcon
+                {
+                    padding: 25px 33px;
+                }
+                i{
+                    font-size: 3em;
+                    color:white;
+                    background-color: rgb(254, 209, 54);
+                    height: 80px;
+                    width: 80px;
+                    padding: 25px;
+                    border-radius: 50%;
+                   
+                }
+                h2{
+                    margin-top: 30px;
+                }
+            
+        }
+    }
+}
