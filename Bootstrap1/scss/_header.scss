@@ -1,0 +1,77 @@
+header{
+    background-image: url("../img/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    .container{
+        max-width: 1000px;
+        position: relative;
+        .row{
+            .navbar-light{
+                .navbar-toggler{
+                    background-color: rgba(254, 194, 33,0.8);
+                    color:black;
+                }
+            }
+            .navbar-expand-lg
+            {
+                .navbar-collapse{
+                    justify-content: flex-end;
+                }
+            } 
+            .header-background{
+                padding-top: 20px;
+               h3{
+                   color:white;
+                   font-family: 'Lobster', cursive;
+                   color: rgb(254, 194, 33);
+               }
+                
+                nav{
+                    ul{
+                        li{
+                            list-style-type: none;
+                            
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                margin-left: 25px;
+                            &:first-of-type{
+                                margin-left: 0;
+                            }
+                            &:hover{
+                                color: rgb(254, 194, 33);
+                            }
+                            }
+                        }
+                    }
+                }
+                #header-text{
+                    position: relative;
+                    left: 0;
+                    top:166px;
+                    color: white;
+
+                    h2{
+                        font-style: italic;
+                    }
+                    h1{
+                        font-weight: bold;
+                        font-size: 60px;
+                        margin-bottom: 30px;
+                    }
+                    .greenButton{
+                        width: 225px;
+                        height: 70px;
+                        background-color: rgb(254, 209, 54);
+                        color:white;
+                        border: 1px solid rgb(254, 209, 54);
+                        border-radius: 5px;
+                        font-weight: bold;
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+    }
+}
