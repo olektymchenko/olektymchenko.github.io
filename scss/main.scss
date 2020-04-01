@@ -1,0 +1,11 @@
+@import "_header";
+@import "_firstPage";
+@import "_secondPage";
+@import "_thirdPage";
+@import "_contactPage";
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }

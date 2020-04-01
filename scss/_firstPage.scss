@@ -1,0 +1,81 @@
+.firstPage{
+    background-color: #201F1F;
+    height: 100vh;
+    color:white;
+    .top{
+        padding-top: 30px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        span{
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        h3{
+            font-size: 2em;
+        }
+        .navfirst{
+            a{
+                font-size: 20px;
+                text-decoration: line-through;
+            }
+           
+        }
+       
+    }
+    .aboutMe{
+        padding-top: 50px;
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            margin-left: 40px;
+        }
+        a{
+            margin-top: 30px;
+            color:white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+    }
+    .btnDown{
+        font-size: 3em;
+        a{
+            color:white;
+        }
+    }
+    .progress{
+        margin-bottom: 10px;
+    }
+    .progress-bar {
+        width: 0;
+        animation: progress 3.5s ease-in-out forwards;
+        
+        .title {
+          opacity: 0;
+          animation: show 0.35s forwards ease-in-out 0.5s;
+        }
+      } 
+      
+      @keyframes progress {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      } 
+      @keyframes show  {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+}

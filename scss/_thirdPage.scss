@@ -1,0 +1,43 @@
+.thirdPage{
+    background-color: #201F1F;
+    height: 100vh;
+    color:white;
+    .top{
+        padding-top: 30px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        span{
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        h3{
+            font-size: 2em;
+        }
+        .navfirst{
+            a{
+                font-size: 20px;
+                text-decoration: line-through;
+            }
+           
+        }
+}
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    span{
+        font-weight: bold;
+    }
+    .third-center{
+        padding-top: 40px;
+    }
+    .btnDown{
+        font-size: 3em;
+        a{
+            color:white;
+        }
+    }
+}

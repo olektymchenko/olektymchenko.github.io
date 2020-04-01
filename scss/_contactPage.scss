@@ -1,0 +1,67 @@
+.contactMe{
+    background-color: #201F1F;
+    height: 100vh;
+    color:white;
+    .top{
+        padding-top: 30px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        span{
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        h3{
+            font-size: 2em;
+        }
+        .navfirst{
+            a{
+                font-size: 20px;
+                text-decoration: line-through;
+            }
+           
+        }
+    }
+    form{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        #name,#phone,#email,#msg{
+            width: 100%;
+            height: 40px;
+            border-radius: 7px;
+            border: 1px solid #201F1F;
+            padding: 5px;
+        }
+        #phone,#email{
+            margin-top: 15px;
+        }
+        #msg{
+            height: 150px;
+            margin-bottom: 50px;
+        }
+        #btnSubmit{
+
+            margin: 0 auto;
+            color:white;
+            background-color: transparent;
+            width: 80px;
+            height: 50px;
+            border-radius: 7px;;
+        }
+    }
+    footer{
+        text-align: center;
+        margin-top: 100px;
+        a{
+            text-decoration: none;
+            color:white;
+            
+        }
+    }
+    
+}

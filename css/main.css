@@ -1,480 +1,343 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-header {
-    background-image: url("../img/header-bg.jpg");
-    background-position: center;
+header .background {
+    padding-top: 30px;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    color: white;
     height: 100vh;
 }
 
-header .container {
-    max-width: 1000px;
-    position: relative;
-}
-
-header .container .row .navbar-light .navbar-toggler {
-    background-color: rgba(254, 194, 33, 0.8);
-    color: black;
-}
-
-header .container .row .navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
-}
-
-header .container .row .header-background {
-    padding-top: 20px;
-}
-
-header .container .row .header-background h3 {
+header .background .logo a {
     color: white;
-    font-family: 'Lobster', cursive;
-    color: #fec221;
+    text-decoration: none;
 }
 
-header .container .row .header-background nav ul li {
+header .background .logo span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header .background .logo h3 {
+    font-size: 2em;
+}
+
+header .background .nav ul {
     list-style-type: none;
 }
 
-header .container .row .header-background nav ul li a {
+header .background .nav ul li span {
+    font-size: 20px;
+    color: #CD14A8;
+    text-decoration: line-through;
+}
+
+header .background .nav ul li a {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
     text-decoration: none;
-    color: white;
-    margin-left: 25px;
 }
 
-header .container .row .header-background nav ul li a:first-of-type {
-    margin-left: 0;
-}
-
-header .container .row .header-background nav ul li a:hover {
-    color: #fec221;
-}
-
-header .container .row .header-background #header-text {
-    position: relative;
-    left: 0;
-    top: 166px;
-    color: white;
-}
-
-header .container .row .header-background #header-text h2 {
-    font-style: italic;
-}
-
-header .container .row .header-background #header-text h1 {
+header .background .header-text h3 {
+    font-size: 80px;
     font-weight: bold;
-    font-size: 60px;
-    margin-bottom: 30px;
 }
 
-header .container .row .header-background #header-text .greenButton {
-    width: 225px;
-    height: 70px;
-    background-color: #fed136;
-    color: white;
-    border: 1px solid #fed136;
-    border-radius: 5px;
+header .background .header-text h4 {
+    font-size: 50px;
     font-weight: bold;
-    font-size: 19px;
 }
 
-.secondSection .container {
+header .background .down {
     margin-top: 100px;
-}
-
-.secondSection .container h1 {
-    font-weight: bold;
-}
-
-.secondSection .container p {
-    font-style: italic;
-    margin-bottom: 80px;
-    color: #6c757d;
-}
-
-.secondSection .container .row p {
-    font-style: normal;
-}
-
-.secondSection .container .row .lastIcon {
-    padding: 25px 33px;
-}
-
-.secondSection .container .row i {
     font-size: 3em;
+}
+
+header .background .down a {
     color: white;
-    background-color: #fed136;
-    height: 80px;
-    width: 80px;
-    padding: 25px;
-    border-radius: 50%;
-}
-
-.secondSection .container .row h2 {
-    margin-top: 30px;
-}
-
-.portfolio {
-    background-color: #f8f9fa;
-}
-
-.portfolio .container {
-    padding-top: 150px;
-}
-
-.portfolio .container h1 {
-    font-weight: bold;
-    color: black;
-}
-
-.portfolio .container p {
-    font-style: italic;
-    color: #6c757d;
-}
-
-.portfolio .container .row {
-    margin-top: 70px;
-}
-
-.portfolio .container .row p {
-    font-style: normal;
-}
-
-.portfolio .container .row .MarginTop30 {
-    margin-top: 30px;
-    margin-bottom: 150px;
-}
-
-.portfolio .container .row div {
-    position: relative;
-    width: 100%;
-    background-color: white;
-}
-
-.portfolio .container .row div h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(254, 209, 54, 0.85);
-    color: white;
-    font-weight: bold;
-    font-size: 115px;
-    font-style: inherit;
-    opacity: 0;
-    transition: 1s;
-}
-
-.portfolio .container .row div h1:hover {
-    transition-duration: 1s;
-    opacity: 1;
-}
-
-.portfolio .container .row div h2 {
-    margin-top: 15px;
-    margin-bottom: 0;
-}
-
-.portfolio .container .row div p {
-    padding-bottom: 15px;
-}
-
-.portfolio .container .row div img {
-    width: 100%;
-}
-
-@media all and (max-width: 768px) {
-    .portfolio .container .row .MarginTop30 {
-        margin-bottom: 0;
-    }
-
-    .portfolio .container .row:last-of-type {
-        padding-bottom: 150px;
-    }
-}
-
-.about .container a {
     text-decoration: none;
 }
 
-.about .container h1 {
-    padding-top: 150px;
+.firstPage {
+    background-color: #201F1F;
+    height: 100vh;
+    color: white;
 }
 
-.about .container p {
-    font-style: italic;
-    color: #6c757d;
+.firstPage .top {
+    padding-top: 30px;
 }
 
-.about .container .row {
-    margin-top: 70px;
+.firstPage .top a {
+    color: white;
+    text-decoration: none;
 }
 
-.about .container .row p {
-    font-style: normal;
-}
-
-.about .container .row h4 {
+.firstPage .top span {
+    font-size: 40px;
     font-weight: bold;
 }
 
-.about .container .row img {
-    border-radius: 50%;
-    border: 8px solid #e9ecef;
+.firstPage .top h3 {
+    font-size: 2em;
 }
 
-@media all and (max-width: 768px) {
-    .about .container .row img {
+.firstPage .top .navfirst a {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.firstPage .aboutMe {
+    padding-top: 50px;
+}
+
+.firstPage .aboutMe img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.firstPage .aboutMe a {
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.firstPage .btnDown {
+    font-size: 3em;
+}
+
+.firstPage .btnDown a {
+    color: white;
+}
+
+.firstPage .progress {
+    margin-bottom: 10px;
+}
+
+.firstPage .progress-bar {
+    width: 0;
+    animation: progress 3.5s ease-in-out forwards;
+}
+
+.firstPage .progress-bar .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+
+    to {
         width: 100%;
     }
 }
 
-.about .container .row .line {
-    width: 3px;
-    height: 190px;
-    background-color: #e9ecef;
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.secondPage {
+    background-color: #201F1F;
+}
+
+.secondPage .top {
+    padding-top: 20px;
+}
+
+.secondPage .top a {
+    color: white;
+    text-decoration: none;
+}
+
+.secondPage .top span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secondPage .top h3 {
+    font-size: 2em;
+}
+
+.secondPage .top .navfirst a {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.secondPage .text-second {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secondPage .text-second div h3 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.secondPage .text-second div h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.secondPage .carousel {
+    max-height: 300px;
+    max-width: 744px;
     margin: 0 auto;
 }
 
-.about .container .row .blockDistance {
-    height: 400px;
+.secondPage .carousel .carousel-inner .carousel-item img {
+    max-height: 300px;
 }
 
-@media all and (max-width: 992px) {
-    .about .container .row .blockDistance {
-        height: 405px;
-    }
+.secondPage .btnDown {
+    font-size: 3em;
 }
 
-@media all and (max-width: 576px) {
-    .about .container .row .blockDistance {
-        height: 322px;
-    }
+.secondPage .btnDown a {
+    color: white;
 }
 
-.about .container .row .blockDistance2 {
-    height: 580px;
+.thirdPage {
+    background-color: #201F1F;
+    height: 100vh;
+    color: white;
 }
 
-@media all and (max-width: 992px) {
-    .about .container .row .blockDistance2 {
-        height: 430px;
-    }
+.thirdPage .top {
+    padding-top: 30px;
 }
 
-@media all and (max-width: 768px) {
-    .about .container .row .blockDistance2 {
-        height: 150px;
-    }
+.thirdPage .top a {
+    color: white;
+    text-decoration: none;
 }
 
-@media all and (max-width: 576px) {
-    .about .container .row .blockDistance2 {
-        height: 45px;
-    }
+.thirdPage .top span {
+    font-size: 40px;
+    font-weight: bold;
 }
 
-@media all and (max-width: 992px) {
-    .about .container .row .blockDistance3 {
-        height: 25px;
-    }
+.thirdPage .top h3 {
+    font-size: 2em;
 }
 
-@media all and (max-width: 576px) {
-    .about .container .row .blockDistance3 {
-        height: 78px;
-    }
+.thirdPage .top .navfirst a {
+    font-size: 20px;
+    text-decoration: line-through;
 }
 
-.about .container .row #partOfStory {
-    width: 216px;
-    height: 216px;
-    background-color: #fed136;
-    border-radius: 50%;
-    margin: 0 auto;
+.thirdPage a {
+    color: white;
+    text-decoration: none;
+}
+
+.thirdPage span {
+    font-weight: bold;
+}
+
+.thirdPage .third-center {
+    padding-top: 40px;
+}
+
+.thirdPage .btnDown {
+    font-size: 3em;
+}
+
+.thirdPage .btnDown a {
+    color: white;
+}
+
+.contactMe {
+    background-color: #201F1F;
+    height: 100vh;
+    color: white;
+}
+
+.contactMe .top {
+    padding-top: 30px;
+}
+
+.contactMe .top a {
+    color: white;
+    text-decoration: none;
+}
+
+.contactMe .top span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contactMe .top h3 {
+    font-size: 2em;
+}
+
+.contactMe .top .navfirst a {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.contactMe form {
+    margin-top: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    border: 8px solid #e9ecef;
-    margin-bottom: 160px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-@media all and (max-width: 768px) {
-    .about .container .row #partOfStory {
-        width: 100%;
-        max-height: 150px;
-    }
+.contactMe form #name, .contactMe form #phone, .contactMe form #email, .contactMe form #msg {
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid #201F1F;
+    padding: 5px;
 }
 
-@media all and (max-width: 576px) {
-    .about .container .row #partOfStory h4 {
-        font-size: 14px;
-    }
+.contactMe form #phone, .contactMe form #email {
+    margin-top: 15px;
 }
 
-.amazing-team {
-    background-color: #f8f9fa;
-}
-
-.amazing-team .container {
-    color: black;
-}
-
-.amazing-team .container h1 {
-    padding-top: 160px;
-}
-
-.amazing-team .container p {
-    font-style: italic;
-    color: #6c757d;
-}
-
-.amazing-team .container #paragrafAmazing {
-    font-style: normal;
-    margin-top: 50px;
-    padding-bottom: 160px;
-}
-
-.amazing-team .container .row h4 {
-    margin-top: 35px;
-    font-weight: bold;
-}
-
-.amazing-team .container .row p {
-    font-style: normal;
-}
-
-.amazing-team .container .row img {
-    margin-top: 70px;
-    width: 213;
-    height: 213px;
-    border-radius: 50%;
-    border: 8px solid white;
-}
-
-.amazing-team .container .row .icons-social a i {
-    font-size: 1.5em;
-    background-color: #212529;
-    padding: 9px;
-    color: white;
-    border-radius: 50%;
-}
-
-.amazing-team .container .row .icons-social .facebookIcon {
-    padding: 7px 15px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.amazing-team .container .row .icons-social .twitterIcon {
-    padding: 7px 10px;
-}
-
-.amazing-team .container .row .icons-social .linkedIcon {
-    padding: 7px 11px;
-}
-
-.logos .container .row img {
-    margin-top: 50px;
+.contactMe form #msg {
+    height: 150px;
     margin-bottom: 50px;
 }
 
-.contact-us {
-    background-image: url("../img/header.svg");
-    height: 800px;
-    background-position: center;
-    background-size: cover;
-}
-
-@media all and (max-width: 768px) {
-    .contact-us {
-        height: 1200px;
-    }
-}
-
-.contact-us .container h1 {
-    padding-top: 160px;
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-.contact-us .container p {
-    font-style: italic;
-    color: white;
-}
-
-.contact-us .container input[type="submit"] {
-    width: 225px;
-    height: 70px;
-    background-color: #fed136;
-    color: white;
-    border: 1px solid #fed136;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 19px;
+.contactMe form #btnSubmit {
     margin: 0 auto;
-    margin-bottom: 160px;
-}
-
-.contact-us .container input[type="text"] {
-    padding-left: 20px;
-    width: 100%;
-    height: 66px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    border: 0px solid white;
-}
-
-.contact-us .container textarea {
-    width: 100%;
-    height: 258px;
-    border-radius: 8px;
-    border: 0px solid white;
-    padding: 20px;
-    font-weight: bold;
-    margin-bottom: 100px;
-}
-
-.contact-us .container .row {
-    margin-top: 77px;
-}
-
-footer .container .row .icons-social {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-footer .container .row .icons-social a i {
-    font-size: 1.5em;
-    background-color: #212529;
-    padding: 9px;
     color: white;
-    border-radius: 50%;
+    background-color: transparent;
+    width: 80px;
+    height: 50px;
+    border-radius: 7px;
 }
 
-footer .container .row .icons-social .facebookIcon {
-    padding: 7px 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+.contactMe footer {
+    text-align: center;
+    margin-top: 100px;
 }
 
-footer .container .row .icons-social .twitterIcon {
-    padding: 7px 10px;
-}
-
-footer .container .row .icons-social .linkedIcon {
-    padding: 7px 11px;
-}
-
-footer .container .row a {
+.contactMe footer a {
     text-decoration: none;
-    color: #fed136;
+    color: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
