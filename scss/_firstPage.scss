@@ -2,6 +2,10 @@
     background-color: #201F1F;
     height: 100vh;
     color:white;
+    @media all and (max-width:1200px)
+    {
+        height: auto;
+    }
     .top{
         padding-top: 30px;
         a{
@@ -23,16 +27,46 @@
             }
            
         }
+        @media all and (max-width:768px)
+        {
+            span{
+                font-size: 25px;
+            }
+            h3{
+                font-size: 1em;
+            }
+            .navfirst{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        @media all and (max-width:550px)
+        {
+            span{
+                font-size: 17px;
+            }
+            h3{
+                font-size: 0.75em;
+            }
+            .navfirst{
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
        
     }
     .aboutMe{
         padding-top: 50px;
+        text-align: center;
         img{
             width: 250px;
             height: 250px;
             border-radius: 50%;
+            display: block;
+            margin: 0 auto;
             margin-bottom: 30px;
-            margin-left: 40px;
         }
         a{
             margin-top: 30px;
@@ -40,10 +74,14 @@
             text-decoration: none;
             font-size: 15px;
             font-weight: bold;
-            margin-left: 15px;
+            text-align: center;
+            &:first-of-type{
+                margin-right: 10px;
+            }
         }
     }
     .btnDown{
+        margin-top: 10px;
         font-size: 3em;
         a{
             color:white;

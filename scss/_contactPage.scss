@@ -2,6 +2,10 @@
     background-color: #201F1F;
     height: 100vh;
     color:white;
+    @media all and (max-width:768px)
+    {
+        height: auto;
+    }
     .top{
         padding-top: 30px;
         a{
@@ -22,6 +26,34 @@
                 text-decoration: line-through;
             }
            
+        }
+        @media all and (max-width:768px)
+        {
+            span{
+                font-size: 25px;
+            }
+            h3{
+                font-size: 1em;
+            }
+            .navfirst{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        @media all and (max-width:550px)
+        {
+            span{
+                font-size: 17px;
+            }
+            h3{
+                font-size: 0.75em;
+            }
+            .navfirst{
+                a{
+                    font-size: 10px;
+                }
+            }
         }
     }
     form{
@@ -52,6 +84,12 @@
             width: 80px;
             height: 50px;
             border-radius: 7px;;
+        }
+        @media all and (max-width:768px)
+        {
+            #email{
+                margin-bottom: 15px;
+            }
         }
     }
     footer{

@@ -8,35 +8,8 @@ header .background {
     height: 100vh;
 }
 
-header .background .logo a {
-    color: white;
-    text-decoration: none;
-}
-
-header .background .logo span {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-header .background .logo h3 {
-    font-size: 2em;
-}
-
-header .background .nav ul {
-    list-style-type: none;
-}
-
-header .background .nav ul li span {
-    font-size: 20px;
-    color: #CD14A8;
-    text-decoration: line-through;
-}
-
-header .background .nav ul li a {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+header .background .header-text {
+    height: 40vh;
 }
 
 header .background .header-text h3 {
@@ -49,12 +22,103 @@ header .background .header-text h4 {
     font-weight: bold;
 }
 
+@media all and (max-width: 768px) {
+    header .background .header-text h3 {
+        font-size: 50px;
+    }
+
+    header .background .header-text h4 {
+        font-size: 30px;
+    }
+}
+
 header .background .down {
-    margin-top: 100px;
     font-size: 3em;
 }
 
 header .background .down a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+@media all and (max-width: 768px) {
+    header .background .down {
+        height: 30vh;
+    }
+}
+
+header .navigation {
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .navbar-light .navbar-brand {
+    color: white;
+    height: 100%;
+}
+
+header .navbar-light .navbar-brand span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header .navbar-light .navbar-brand h3 {
+    font-size: 2em;
+}
+
+header .navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+    header .navbar-light .navbar-brand {
+        height: 0;
+    }
+
+    header .navbar-light .navbar-brand span {
+        font-size: 20px;
+    }
+
+    header .navbar-light .navbar-brand h3 {
+        font-size: 1em;
+    }
+}
+
+@media all and (max-width: 550px) {
+    header .navbar-light .navbar-brand span {
+        font-size: 17px;
+    }
+
+    header .navbar-light .navbar-brand h3 {
+        font-size: 0.75em;
+    }
+}
+
+header .navbar-light .navbar-toggler {
+    background-color: white;
+}
+
+header .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+header .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+header #menuHeader {
+    font-size: 20px;
+    color: #CD14A8;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+header #aboutHeader,
+header #worksHeader,
+header #contactsHeader {
+    font-size: 30px;
+    font-weight: bold;
     color: white;
     text-decoration: none;
 }
@@ -63,6 +127,12 @@ header .background .down a {
     background-color: #201F1F;
     height: 100vh;
     color: white;
+}
+
+@media all and (max-width: 1200px) {
+    .firstPage {
+        height: auto;
+    }
 }
 
 .firstPage .top {
@@ -88,16 +158,46 @@ header .background .down a {
     text-decoration: line-through;
 }
 
+@media all and (max-width: 768px) {
+    .firstPage .top span {
+        font-size: 25px;
+    }
+
+    .firstPage .top h3 {
+        font-size: 1em;
+    }
+
+    .firstPage .top .navfirst a {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .firstPage .top span {
+        font-size: 17px;
+    }
+
+    .firstPage .top h3 {
+        font-size: 0.75em;
+    }
+
+    .firstPage .top .navfirst a {
+        font-size: 10px;
+    }
+}
+
 .firstPage .aboutMe {
     padding-top: 50px;
+    text-align: center;
 }
 
 .firstPage .aboutMe img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 30px;
-    margin-left: 40px;
 }
 
 .firstPage .aboutMe a {
@@ -106,10 +206,15 @@ header .background .down a {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 15px;
+    text-align: center;
+}
+
+.firstPage .aboutMe a:first-of-type {
+    margin-right: 10px;
 }
 
 .firstPage .btnDown {
+    margin-top: 10px;
     font-size: 3em;
 }
 
@@ -153,6 +258,7 @@ header .background .down a {
 
 .secondPage {
     background-color: #201F1F;
+    padding-bottom: 200px;
 }
 
 .secondPage .top {
@@ -178,10 +284,37 @@ header .background .down a {
     text-decoration: line-through;
 }
 
+@media all and (max-width: 768px) {
+    .secondPage .top span {
+        font-size: 25px;
+    }
+
+    .secondPage .top h3 {
+        font-size: 1em;
+    }
+
+    .secondPage .top .navfirst a {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .secondPage .top span {
+        font-size: 17px;
+    }
+
+    .secondPage .top h3 {
+        font-size: 0.75em;
+    }
+
+    .secondPage .top .navfirst a {
+        font-size: 10px;
+    }
+}
+
 .secondPage .text-second {
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .secondPage .text-second div h3 {
@@ -192,6 +325,16 @@ header .background .down a {
 .secondPage .text-second div h4 {
     font-size: 30px;
     font-weight: bold;
+}
+
+@media all and (max-width: 768px) {
+    .secondPage .text-second div h3 {
+        font-size: 30px;
+    }
+
+    .secondPage .text-second div h3 {
+        font-size: 20px;
+    }
 }
 
 .secondPage .carousel {
@@ -212,14 +355,26 @@ header .background .down a {
     color: white;
 }
 
+@media all and (max-width: 768px) {
+    .secondPage {
+        padding-bottom: 10px;
+    }
+}
+
 .thirdPage {
     background-color: #201F1F;
     height: 100vh;
     color: white;
 }
 
+@media all and (max-width: 768px) {
+    .thirdPage {
+        height: auto;
+    }
+}
+
 .thirdPage .top {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .thirdPage .top a {
@@ -239,6 +394,34 @@ header .background .down a {
 .thirdPage .top .navfirst a {
     font-size: 20px;
     text-decoration: line-through;
+}
+
+@media all and (max-width: 768px) {
+    .thirdPage .top span {
+        font-size: 25px;
+    }
+
+    .thirdPage .top h3 {
+        font-size: 1em;
+    }
+
+    .thirdPage .top .navfirst a {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .thirdPage .top span {
+        font-size: 17px;
+    }
+
+    .thirdPage .top h3 {
+        font-size: 0.75em;
+    }
+
+    .thirdPage .top .navfirst a {
+        font-size: 10px;
+    }
 }
 
 .thirdPage a {
@@ -268,6 +451,12 @@ header .background .down a {
     color: white;
 }
 
+@media all and (max-width: 768px) {
+    .contactMe {
+        height: auto;
+    }
+}
+
 .contactMe .top {
     padding-top: 30px;
 }
@@ -289,6 +478,34 @@ header .background .down a {
 .contactMe .top .navfirst a {
     font-size: 20px;
     text-decoration: line-through;
+}
+
+@media all and (max-width: 768px) {
+    .contactMe .top span {
+        font-size: 25px;
+    }
+
+    .contactMe .top h3 {
+        font-size: 1em;
+    }
+
+    .contactMe .top .navfirst a {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .contactMe .top span {
+        font-size: 17px;
+    }
+
+    .contactMe .top h3 {
+        font-size: 0.75em;
+    }
+
+    .contactMe .top .navfirst a {
+        font-size: 10px;
+    }
 }
 
 .contactMe form {
@@ -322,6 +539,12 @@ header .background .down a {
     width: 80px;
     height: 50px;
     border-radius: 7px;
+}
+
+@media all and (max-width: 768px) {
+    .contactMe form #email {
+        margin-bottom: 15px;
+    }
 }
 
 .contactMe footer {

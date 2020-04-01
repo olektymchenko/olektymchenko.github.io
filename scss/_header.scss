@@ -7,40 +7,9 @@ header{
         background-position: center;
         color:white;
         height: 100vh;
-        .logo{
-            a{
-                color: white;
-                text-decoration: none;
-            }
-            span{
-                font-size: 40px;
-                font-weight: bold;
-            }
-
-            h3{
-                font-size: 2em;
-            }
-        }
-        .nav{
-            ul{
-                list-style-type: none;
-                li{
-                    span{
-                        font-size: 20px;
-                        color: #CD14A8;
-                        text-decoration: line-through;
-                    }
-                    a{
-                        font-size: 30px;
-                        font-weight: bold;
-                        color:white;
-                        text-decoration: none;
-                    }
-                   
-                }
-            }
-        }
+        
         .header-text{
+            height: 40vh;
             h3{
                 font-size: 80px;
                 font-weight: bold;
@@ -49,14 +18,96 @@ header{
                 font-size: 50px;
                 font-weight: bold;
             }
+            @media all and(max-width:768px)
+            {
+                h3{
+                    font-size: 50px;
+                }
+                h4{
+                    font-size: 30px;
+                }
+            }
         }
         .down{
-            margin-top: 100px;
             font-size: 3em;
             a{
                 color:white;
                 text-decoration: none;
+                width: 100%;
+            }
+            @media all and(max-width:768px)
+            {
+                height: 30vh;
             }
         }
     }
+    .navigation{
+        justify-content: space-between;
+        width: 100%;
+    }
+ 
+        .navbar-light{
+           
+                .navbar-brand{
+                    color:white;
+                    height: 100%;
+                    span{
+                        font-size: 40px;
+                        font-weight: bold;
+                       
+                    }
+                    h3{
+                        font-size: 2em;
+                    }
+                    &:hover{
+                        color:white;
+                    }
+                    @media all and (max-width:768px){
+                        span{
+                        font-size:20px;
+                        }
+                        h3{
+                            font-size: 1em;
+                        }
+                        height: 0;
+                    }
+                    @media all and(max-width:550px)
+                    {
+                        span{
+                            font-size: 17px;
+                        }
+                        h3{
+                            font-size: 0.75em;
+                        }
+                    }
+                }
+
+                .navbar-toggler{
+                    background-color:white;
+                }
+            
+        }
+       
+        .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+            
+            color:white;
+            &:hover{
+                color:white;
+            }
+        }
+        #menuHeader{
+            font-size: 20px;
+            color: #CD14A8;
+            text-decoration: line-through;
+            font-weight: bold;
+        }
+        #aboutHeader,
+        #worksHeader,
+        #contactsHeader{
+            font-size: 30px;
+                        font-weight: bold;
+                        color:white;
+                        text-decoration: none;
+        }
+    
 }
