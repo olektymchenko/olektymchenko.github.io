@@ -355,7 +355,7 @@ header #contactsHeader {
     color: white;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 992px) {
     .secondPage {
         padding-bottom: 10px;
     }
